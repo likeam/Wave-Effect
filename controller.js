@@ -5,4 +5,8 @@ button.onclick = () =>{
 
     h1.innerText = 'Abdul Rehamn';
     document.body.prepend(h1);
+
+    setTimeout(()=>{
+        h1.remove();
+    },3000);
 }
