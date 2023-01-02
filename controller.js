@@ -1,6 +1,8 @@
 const button = document.querySelector('button');
 
-button.onclick = () =>{
+button.addEventListener('click', txt);
+
+    function txt() {
     const h1 = document.createElement('h1');
 
     h1.innerText = 'Abdul Rehamn';
