@@ -39,30 +39,50 @@
 
 
 
-const khalifa1 = {
-    name: 'Abubakar',
-    age: 64
+// const khalifa1 = {
+//     name: 'Abubakar',
+//     age: 64
+// }
+
+// const khalifa2 = {
+//     name: 'Umar',
+//     age: 68
+// }
+// const khalifa3 = {
+//     name: 'Usman',
+//     age: 70
+// }
+// const khalifa4 = {
+//     name: 'Ali',
+//     age: 67
+// }
+// const khalifa5 = {
+//     name: 'Mavia',
+//     age: 72
+// }
+
+// function khulfaAge(khulfa){
+//     console.log(khulfa.age)
+// }
+
+// khulfaAge(khalifa1);
+
+let counter = 0;
+
+function incrementCounter(){
+    counter++
+
+    //create an element
+    const li = document.createElement('li');
+    li.innerHTML = '<br>Sentence' + counter;
+
+    //append that element
+    ulElement.appendChild(li)
 }
 
-const khalifa2 = {
-    name: 'Umar',
-    age: 68
-}
-const khalifa3 = {
-    name: 'Usman',
-    age: 70
-}
-const khalifa4 = {
-    name: 'Ali',
-    age: 67
-}
-const khalifa5 = {
-    name: 'Mavia',
-    age: 72
-}
+function decrementCounter(){
+    counter--
+    counterEl.innerText = counter;
 
-function khulfaAge(khulfa){
-    console.log(khulfa.age)
 }
-
-khulfaAge(khalifa1);
+incrementCounter.
